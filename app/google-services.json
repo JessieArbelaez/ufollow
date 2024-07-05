@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "413598563478",
+    "project_id": "ufollow-39ea1",
+    "storage_bucket": "ufollow-39ea1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413598563478:android:4103d7692d139b51be96b7",
+        "android_client_info": {
+          "package_name": "com.ufo.ufollow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfjRmbQiuUE68xsFwTTumf3_2HyUTYzGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
