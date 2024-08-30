@@ -59,7 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="32dp"
-            android:text="Ya tienes uan cuenta?"
+            android:text="Ya tienes una cuenta?"
             android:textColor="@color/orange"
             android:textSize="15sp" />
 

@@ -1,32 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/welcome"
-    android:padding="40dp"
-    android:orientation="vertical"
     tools:context=".HomePage">
 
-    <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
-        android:layout_width="369dp"
-        android:layout_height="110dp"
-        android:layout_marginTop="160dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
 
         <TextView
-            android:id="@+id/routes_text"
+            android:id="@+id/tvTitle"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginBottom="200dp"
-            android:layout_marginRight="40dp"
-            android:text="Aún no tienes rutas asignadas."
-            android:textColor="@color/orange"
-            android:textSize="30sp"
-            android:gravity="center"/>
-    </com.google.android.material.textfield.TextInputLayout>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:gravity="center" />
 
+        <TextView
+            android:id="@+id/tvRouteInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="De: Manizales\nHacia: Bogotá\nKm: 300"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:gravity="center" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/tvStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1dp"
+            android:text="Hora de inicio: 08:00 AM"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-1dp"
+            android:text="Fecha: 26/09/24"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/btnStartRoute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Empezar Ruta"
+            android:textColor="#000000"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>
